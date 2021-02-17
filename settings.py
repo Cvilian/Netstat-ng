@@ -25,7 +25,7 @@ SECRET_KEY = 's7iz@a=9@)k1fn9pwcktke0a_9#8j344^tn69i6qwdi%an77ql'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '172.26.17.198', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '', '.pythonanywhere.com']
 
 
 # Application definition
@@ -79,8 +79,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
 	'NAME': 'trafficDB',
 	'USER': 'trainer',
-	'PASSWORD': '2229',
-	'HOST': '172.26.17.198',
+	'PASSWORD': '',
+	'HOST': '',
 	'PORT': '3306',
     }
 }
